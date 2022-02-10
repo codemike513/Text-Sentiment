@@ -23,10 +23,6 @@ def main():
     st.beta_set_page_config(page_title='Text Sentiment',
                             page_icon="😁", layout='wide', initial_sidebar_state='auto')
 
-    img1 = Image.open('logo.png')
-    img1 = img1.resize((450, 200))
-    st.image(img1, use_column_width=False)
-
     st.title("Text Sentiment Prediction")
     st.text("Predict the sentiment based on your text")
 
